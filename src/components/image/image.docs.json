@@ -1,0 +1,26 @@
+{
+  "description": "\nImage Core Component contains basic information about a image. This component is responsive to screen sizes and supports style variations.",
+  "displayName": "Image",
+  "props": [
+    {
+      "value": "cmp-image",
+      "description": "Base class to define a image",
+      "required": true
+    },
+    {
+      "value": "cmp-button__image",
+      "description": "The image of the component",
+      "required": true
+    },
+    {
+      "value": "cmp-button__link",
+      "description": "Required if the image is link",
+      "required": false
+    },
+    {
+      "value": "cmp-button__title",
+      "description": "Required if the image has a caption",
+      "required": false
+    }
+  ]
+}

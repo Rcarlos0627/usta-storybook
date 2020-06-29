@@ -1,0 +1,35 @@
+@import '../variables';
+@import '../mixins';
+
+//Custom SCSS
+h1,.h1,h2,h3,h4,h5,h6{font-family:"Avenir Heavy",Arial,Helvetica,sans-serif}
+
+.cmp-articlesection {
+    font-family: $font-AvenirRoman;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 30px;
+
+    .cmp-articlesection__section {
+        &--general {
+            color: $color-32-middle-grey;
+        }
+
+        &--national {
+            color: $color-primary;
+        }
+
+        &--other {
+            color: $color-error;
+        }
+
+    }
+
+    .cmp-articlesection__greyline {
+        color: $color-32-middle-grey;
+    }
+
+    .cmp-articlesection__district {
+        color: $color-error;
+    }
+}

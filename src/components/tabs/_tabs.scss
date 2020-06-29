@@ -1,0 +1,136 @@
+@import '../variables';
+@import '../mixins';
+
+.core-tabs {
+    .cmp-tabs__tablist {
+        @include flexbox();
+        @include flex-wrap(nowrap);
+        padding-left: 0;
+        list-style: none;
+        margin-bottom: 0;
+
+        &--mobile-hide {
+            @media ($mobile) {
+                display: none;
+            }
+        }
+    }
+
+    .cmp-tabs__tab {
+        box-sizing: border-box;
+        padding: .5rem 1rem;
+        cursor: pointer;
+        font-family: $font-AvenirRoman;
+        color: $color-31-black;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 22px;
+        text-align: center;
+        border-bottom: 0px solid transparent;
+
+        @media ($mobile) {
+            @include flex-grow(1);
+            min-width: 100px;
+        }
+
+        &--active {
+            border-color: transparent;
+        }
+    }
+
+    .cmp-tabs__tab:focus {
+        outline: none;
+    }
+
+    .cmp-tabs__tabpanel {
+        display: none;
+
+        &--active {
+            display: block;
+        }
+    }
+
+    .cmp-tabs__border-wrapper {
+        position: relative;
+        margin-bottom: 10px;
+
+        &--mobile-hide {
+            @media ($mobile) {
+                display: none;
+            }
+        }
+    }
+
+    .cmp-tabs__background-border {
+        height: 6px;
+        width: 100%;
+        background-color: $color-34-extra-light-grey;
+        position: absolute;
+        display: block;
+    }
+
+    .cmp-tabs__border {
+        height: 6px;
+        width: 25%;
+        background-color: $color-error;
+        position: absolute;
+        @include transition-duration(500ms);
+        display: block;
+    }
+
+    .cmp-tabs__select-wrapper {
+        position: relative;
+        width: 100%;
+        display: none;
+
+        @media ($mobile) {
+            display: block;
+        }
+    }
+
+    .cmp-tabs__select {
+        height: 70px;
+        width: 100%;
+        padding: 0 45px 0 18px;
+        @include appearance(none);
+        position: relative;
+        border: 1px solid $color-middle-grey;
+        font: 18px/24px $font-AvenirRoman;
+        font-weight: 900;
+        background-color: $color-35-white;
+        display: none;
+
+        @media ($mobile) {
+            display: block;
+        }
+    }
+
+    .cmp-tabs__select option {
+        width: 100%;
+        padding: 0 45px 0 18px;
+        @include appearance(none);
+        position: relative;
+        border: 1px solid $color-middle-grey;
+        font: 18px/24px $font-AvenirRoman;
+    }
+
+    .cmp-tabs__select-arrow::before {
+        position: absolute;
+        right: 30px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 0;
+        height: 0;
+        content: "";
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid $color-31-black;
+        pointer-events: none;
+        display: none;
+
+        @media ($mobile) {
+            display: block;
+        }
+    }
+}

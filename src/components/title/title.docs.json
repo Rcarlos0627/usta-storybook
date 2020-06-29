@@ -1,0 +1,43 @@
+{
+  "description": "\nTitle Core Component contains basic information about an Article Page: Section, District, Title, Author and Publish Date, this component is responsive to screen sizes and support style variations.\n Note: This component uses cmp-articlesection inside its structure",
+  "displayName": "Title",
+  "props": [
+    {
+      "value": "cmp-title",
+      "description": "Base class to define a Title",
+      "required": true
+    },
+    {
+      "value": "cmp-title__eyebrow",
+      "description": "Here is located the 'cmp-articlesection' element where the Section and District will be displayed"
+    },
+    {
+      "value": "cmp-title__text",
+      "description": "The Title main text"
+    },
+    {
+      "value": "cmp-title__authorDate",
+      "description": "Author and Publish Date Information"
+    },
+    {
+      "value": "cmp-title__link",
+      "description": "Class applied when the Title works as a Link"
+    },
+    {
+      "value": "cmp-articlesection",
+      "description": "Container for the Article Section Information"
+    },
+    {
+      "value": "cmp-articlesection__section",
+      "description": "Value for the Article Section"
+    },
+    {
+      "value": "cmp-articlesection__greyline",
+      "description": "Separator between the Section and District"
+    },
+    {
+      "value": "cmp-articlesection__district",
+      "description": "Value for the Section's District"
+    }
+  ]
+}

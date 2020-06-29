@@ -1,0 +1,300 @@
+{
+    "sections_with_districts": [
+        {
+            "name": "Caribbean",
+            "districts": [
+                {
+                    "name": "Puerto Rico"
+                },
+                {
+                    "name": "Virgin Islands"
+                }
+            ]
+        },
+        {
+            "name": "Eastern",
+            "districts": [
+                {
+                    "name": "Western"
+                },
+                {
+                    "name": "Long Island"
+                },
+                {
+                    "name": "Northern"
+                },
+                {
+                    "name": "Metropolitan"
+                },
+                {
+                    "name": "New Jersey"
+                },
+                {
+                    "name": "Southern"
+                }
+            ]
+        },
+        {
+            "name": "Hawaii Pacific",
+            "districts": [
+                {
+                    "name": "East Hawaii"
+                },
+                {
+                    "name": "Kauai"
+                },
+                {
+                    "name": "Maui"
+                },
+                {
+                    "name": "Oahu"
+                },
+                {
+                    "name": "American Samoa-Guam"
+                },
+                {
+                    "name": "West Hawaii"
+                }
+            ]
+        },
+        {
+            "name": "Intermountain",
+            "districts": [
+                {
+                    "name": "Southern Nevada"
+                },
+                {
+                    "name": "Colorado"
+                },
+                {
+                    "name": "Idaho"
+                },
+                {
+                    "name": "Montana"
+                },
+                {
+                    "name": "Utah"
+                },
+                {
+                    "name": "Wyoming"
+                }
+            ]
+        },
+        {
+            "name": "Mid-Atlantic",
+            "districts": [
+                {
+                    "name": "Washington"
+                },
+                {
+                    "name": "Maryland"
+                },
+                {
+                    "name": "West Virginia"
+                },
+                {
+                    "name": "Virginia"
+                }
+            ]
+        },
+        {
+            "name": "Middle States",
+            "districts": [
+                {
+                    "name": "Delaware"
+                },
+                {
+                    "name": "Central Pennsylvania"
+                },
+                {
+                    "name": "Eastern Pennsylvania"
+                },
+                {
+                    "name": "Philadelphia"
+                },
+                {
+                    "name": "Allegheny Mountain"
+                },
+                {
+                    "name": "New Jersey"
+                }
+            ]
+        },
+        {
+            "name": "Missouri Valley",
+            "districts": [
+                {
+                    "name": "Heart Of America"
+                },
+                {
+                    "name": "Iowa"
+                },
+                {
+                    "name": "Kansas"
+                },
+                {
+                    "name": "Nebraska"
+                },
+                {
+                    "name": "Oklahoma"
+                },
+                {
+                    "name": "St"
+                },
+                {
+                    "name": "Missouri"
+                }
+            ]
+        },
+        {
+            "name": "New England",
+            "districts": [
+                {
+                    "name": "New Hampshire"
+                },
+                {
+                    "name": "Vermont"
+                },
+                {
+                    "name": "Eastern Massachusetts"
+                },
+                {
+                    "name": "Western Massachusetts"
+                },
+                {
+                    "name": "Rhode Island"
+                },
+                {
+                    "name": "Connecticut"
+                },
+                {
+                    "name": "Maine"
+                }
+            ]
+        },
+        {
+            "name": "Southern",
+            "districts": [
+                {
+                    "name": "Alabama"
+                },
+                {
+                    "name": "Arkansas"
+                },
+                {
+                    "name": "Georgia"
+                },
+                {
+                    "name": "Kentuckty"
+                },
+                {
+                    "name": "Louisiana"
+                },
+                {
+                    "name": "Mississippi"
+                },
+                {
+                    "name": "North Carolina"
+                },
+                {
+                    "name": "South Carolina"
+                },
+                {
+                    "name": "Tennessee"
+                }
+            ]
+        },
+        {
+            "name": "Southwest",
+            "districts": [
+                {
+                    "name": "Northern Arizona"
+                },
+                {
+                    "name": "Northern New Mexico"
+                },
+                {
+                    "name": "Southern Arizona"
+                },
+                {
+                    "name": "Central Arizona"
+                },
+                {
+                    "name": "Greater El Paso"
+                },
+                {
+                    "name": "Southern New Mexico"
+                },
+                {
+                    "name": "Southeastern New Mexico"
+                }
+            ]
+        },
+        {
+            "name": "Midwest",
+            "districts": [
+                {
+                    "name": "Central Indiana"
+                },
+                {
+                    "name": "Chicago"
+                },
+                {
+                    "name": "Northeastern Michigan"
+                },
+                {
+                    "name": "Southeastern Michigan"
+                },
+                {
+                    "name": "Western Michigan"
+                },
+                {
+                    "name": "Northern Indiana"
+                },
+                {
+                    "name": "Northern Illinois"
+                },
+                {
+                    "name": "Ohio Valley"
+                },
+                {
+                    "name": "Northeastern Ohio"
+                },
+                {
+                    "name": "Northwestern Ohio"
+                },
+                {
+                    "name": "Wisconsin"
+                },
+                {
+                    "name": "Northern Michigan"
+                },
+                {
+                    "name": "Mid-South Illinois"
+                }
+            ]
+        }
+    ],
+    "sections_no_districts":[
+        {
+            "name": "Pacific Northwest",
+            "districts": []
+        },
+        {
+            "name": "Texas",
+            "districts": []
+        },
+        {
+            "name": "Southern California",
+            "districts": []
+        },
+        {
+            "name": "Northern California",
+            "districts": []
+        },
+        {
+            "name": "Northern",
+            "districts": []
+        }
+    ]
+}

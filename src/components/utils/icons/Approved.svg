@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icons/Success</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.99995,17.00005 L4.99995,12.00005 L6.41495,10.58505 L9.99995,14.17005 L17.58495,6.58505 L18.99995,8.00005 L9.99995,17.00005 Z M11.99995,2.00005 C6.47495,2.00005 1.99995,6.47505 1.99995,12.00005 C1.99995,17.52005 6.47495,22.00005 11.99995,22.00005 C17.51995,22.00005 21.99995,17.52005 21.99995,12.00005 C21.99995,6.47505 17.51995,2.00005 11.99995,2.00005 L11.99995,2.00005 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/Success" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#39b54a" xlink:href="#path-1"></use>
+    </g>
+</svg>

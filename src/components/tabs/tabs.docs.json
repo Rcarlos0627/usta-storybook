@@ -1,0 +1,31 @@
+{
+    "description": "\nTabs Core Component contains a list of Items Titles and a panel for each one.",
+    "displayName": "Tabs",
+    "props": [
+        {
+            "value": "cmp-tabs",
+            "description": "Base class to define a Tabs component",
+            "required": true
+        },
+        {
+            "value": "cmp-tabs__tablist",
+            "description": "Element that will contain the Tabs component titles list"
+        },
+        {
+            "value": "cmp-tabs__border-wrapper",
+            "description": "Parent for the border elements"
+        },
+        {
+            "value": "cmp-tabs__background-tabs__border",
+            "description": "The grey border at the background"
+        },
+        {
+            "value": "cmp-tabs__border",
+            "description": "The red border under a selected option"
+        },
+        {
+            "value": "cmp-tabs__tabpanel",
+            "description": "Panel which has the content for a Tab"
+        }
+    ]
+}

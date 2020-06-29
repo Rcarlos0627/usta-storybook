@@ -1,0 +1,31 @@
+{
+  "description": "\nButton Core Component contains basic information about a button: Style, Icon, Size, Text. This component is responsive to screen sizes and supports style variations.\nIcons as an optional addition.",
+  "displayName": "Button",
+  "props": [
+    {
+      "value": "cmp-button",
+      "description": "Base class to define a button",
+      "required": true
+    },
+    {
+      "value": "cmp-button__text",
+      "description": "The text of the button",
+      "required": false
+    },
+    {
+      "value": "cmp-button__icon",
+      "description": "Required when the button has an icon",
+      "required": false
+    },
+    {
+      "value": "cmp-button__icon--<icon>",
+      "description": "Required to load an icon for the button as a background",
+      "required": false
+    },
+    {
+      "value": "disabled",
+      "description": "Disabled attribute to disable the button",
+      "required": false
+    }
+  ]
+}

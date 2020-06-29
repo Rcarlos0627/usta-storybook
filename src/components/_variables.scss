@@ -1,0 +1,106 @@
+@import url('https://usta.invisionapp.com/dsm-export/usta/basal/_style-params.css?key=rkh8O4qY4');
+
+$font-family: red;
+$color-gray-light: grey;
+$color-middle-grey: #565656;
+$color-gray: grey;
+$color-disable: Grey;
+
+$color-31-black: #000000;
+$color-32-middle-grey: #888B8D;
+$color-34-extra-light-grey: #EEF0F0;
+$color-35-white: #FFFFFF;
+/*
+    Colors:
+*/
+
+$color-primary: #418fde;
+$color-primary-dark: #00143f;
+$color-accent: #c8102e;
+$color-accent-occasional: #faa918;
+$color-secondary: #00558c;
+$color-black: #000000;
+$color-neutral-dark: #888b8d;
+$color-neutral-medium: #c1c6c8;
+$color-neutral-light: #eef0f0;
+$color-neutral-extra-light: #f9f9f9;
+$color-white: #ffffff;
+$color-primary-20: #dae9f8;
+$color-primary-40: #b3d1f1;
+$color-primary-60: #8cbae9;
+$color-primary-80: #67a5e5;
+$color-primary-120: #3472b1;
+$color-primary-140: #275585;
+$color-primary-160: #1a3958;
+$color-primary-180: #0d1c2c;
+$color-alert: #faa918;
+$color-status: #4aabfa;
+$color-success: #39b54a;
+$color-success-light: #9bd9a3;
+$color-error: #c8102e;
+$color-facebook-2019: #1977f2;
+$color-pinterest-2019: #e70022;
+$color-button-ghost: #3E89D6;
+$color-button-ghost-background: rgba(65,143,222,0.25);
+$color-button-ghost-light: rgba(255,255,255,0.25);
+
+/*
+    Breakpoints
+*/
+$small-mobile-breakpoint: 365px;
+$mobile-breakpoint: 768px;
+$tablet-breakpoint: 992px;
+
+$small-mobile: "max-width: #{$small-mobile-breakpoint}";
+$mobile: "max-width: calc(#{$mobile-breakpoint} - 1px)";
+$tablet: "min-width: #{$mobile-breakpoint}) and (max-width: calc(#{$tablet-breakpoint} - 1px)";
+$desktop: "min-width: #{$tablet-breakpoint}";
+
+/*
+    Fonts:
+*/
+$font-desktop-paragraph-1-regular-white-center-font-size: 18px;
+$font-desktop-paragraph-1-regular-white-center-line-height: 24px;
+$font-desktop-paragraph-1-regular-white-center-text-align: center;
+$font-desktop-paragraph-1-regular-white-center-color: #ffffff;
+$font-desktop-paragraph-1-regular-white-center-font-style: normal;
+$font-desktop-paragraph-1-regular-white-center-font-weight: 400;
+$font-desktop-paragraph-1-regular-white-center-font-family: Avenir;
+
+
+/* FONTS */
+$font-Helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-AvenirBook: 'Avenir Book', Arial, sans-serif;
+$font-AvenirRoman: 'Avenir Roman', Arial, Helvetica, sans-serif;
+$font-AvenirHeavy: 'Avenir Heavy', Arial, sans-serif;
+
+@font-face {
+  font-family: 'Avenir Roman';
+  src: url("../utils/fonts/Avenir-Roman.eot");
+  src: url("../utils/fonts/Avenir-Roman.eot?#iefix") format("embedded-opentype"), url("../utils/fonts/Avenir-Roman.woff") format("woff"), url("../utils/fonts/Avenir-Roman.svg#Avenir-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Book';
+  src: url("../utils/fonts/Avenir-Book.eot?#iefix") format("embedded-opentype"), url("../utils/fonts/Avenir-Book.woff") format("woff"), url("../utils/fonts/Avenir-Book.svg#Avenir-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Heavy';
+  src: url("../utils/fonts/Avenir-Heavy.eot");
+  src: url("../utils/fonts/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("../utils/fonts/Avenir-Heavy.woff") format("woff"), url("../utils/fonts/Avenir-Heavy.svg#Avenir-Heavy") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Light';
+  src: url("../utils/fonts/Avenir-Light.eot");
+  src: url("../utils/fonts/Avenir-Light.eot?#iefix") format("embedded-opentype"), url("../utils/fonts/Avenir-Light.woff") format("woff"), url("../utils/fonts/Avenir-Light.svg#Avenir-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

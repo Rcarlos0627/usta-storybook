@@ -1,0 +1,7 @@
+{
+  "authToken": "B14xPTgqH",
+  "dsmHost": "usta.invisionapp.com",
+  "organization": "usta",
+  "outputDir": ".dsm",
+  "storyPath": "src/stories/**/*.{js,ts}"
+}

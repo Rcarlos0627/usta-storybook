@@ -1,0 +1,46 @@
+{
+  "description": "\nTeaser Core Component contains basic information about a teaser: Image, Pre Title, Title, Description. This component is responsive to screen sizes and supports style variations.",
+  "displayName": "Teaser",
+  "props": [
+    {
+      "value": "cmp-teaser",
+      "description": "Base class to define a teaser",
+      "required": true
+    },
+    {
+      "value": "cmp-teaser__image",
+      "description": "The image of the teaser",
+      "required": true
+    },
+    {
+      "value": "cmp-teaser__content",
+      "description": "Content class of the teaser",
+      "required": true
+    },
+    {
+      "value": "cmp-teaser__pretitle",
+      "description": "Class for the teaser pretitle",
+      "required": true
+    },
+    {
+      "value": "cmp-teaser__title",
+      "description": "Class for the teaser title",
+      "required": true
+    },
+    {
+      "value": "cmp-teaser__title-link",
+      "description": "Class for the teaser title link",
+      "required": false
+    },
+    {
+      "value": "cmp-teaser__description",
+      "description": "Class for the teaser description",
+      "required": true
+    },
+    {
+      "value": "cmp-teaser__action-container",
+      "description": "Class for the teaser action container",
+      "required": true
+    }
+  ]
+}
